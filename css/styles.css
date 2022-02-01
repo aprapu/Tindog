@@ -1,0 +1,186 @@
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+h1,h2,h3,h4,h5,h6{font-family: 'Montserrat', sans-serif; font-weight: 900}
+
+p{
+    color: #8f8f8f;
+}
+
+.container-fluid{
+    padding: 7% 15%;
+}
+.colored-section{
+    background-color: #ff4c68;
+    color: #fff;
+}
+.white-section{
+    background-color: #fff;
+    color: black;
+}
+/* Title */
+
+#title .container-fluid{
+    padding: 3% 15%;
+}
+.header-title{
+    font-family: 'Montserrat', sans-serif;  font-size: 3rem;  line-height: 1.5;  font-weight: 900;
+    text-align: left;
+
+}
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+/* Navbar */
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+
+}
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Donwload Button */
+
+.download-btn{
+    margin: 5% 0% 10% 2%;
+}
+
+/* Title Image */
+
+.title-image{
+    width: 58%;
+    transform: rotate(25deg);
+    margin-left: 7%;
+    right: 30%;
+    position: absolute;
+}
+
+/* Features */
+#features{
+
+    color: #8f8f8f;
+    position: relative;
+    z-index: 1;
+
+}
+.feature-title{
+    font-size: 1.5rem; font-weight: 700;
+    color: black;
+
+}
+
+.features-box{
+    padding: 3%;
+    
+}
+/* Logo Features */
+.logo-features{
+    color: #ef8172;
+    font-size: 4.5rem;
+    margin: 6% 0 6% 0;
+}
+.logo-features:hover{
+    color: #ff4c68;
+}
+
+/* testimoni */
+
+#testimonials{
+
+    background-color: #ef8172;
+    color: #fff;
+}
+
+
+.testimonial-img{
+    width: 15%;
+    padding: 20px;
+    border-radius: 100%;
+}
+.testimonial-text{
+    font-size: 2.5rem; line-height: 1.5; font-weight: 750;
+}
+
+/* press section */
+
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* pricing */
+.pricing-header{
+    font-size: 2.5rem; line-height: 1.5; font-weight: 750;
+}
+#pricing{
+    padding: 100px;
+}
+
+.pricing-body{
+    font-size: 1.8rem;
+    font-weight: 750;
+}
+
+.col-pricing{
+    padding: 3% 2%;
+}
+
+/* Contact Footer Page */
+#cta .container-fluid{
+    padding: 7% 15% 4%;
+}
+
+
+/* Footer Copyright */
+#footer .container-fluid{
+
+    padding: 7% 15% 3%;
+}
+.footer-icon{
+    padding: 3% 1%;
+
+}
+.footer-icon:hover{
+    color: #ff4c68;
+}
+/* Mobile Site */
+
+@media (max-width: 1028px){
+    #title{
+        text-align: center;  
+    }
+    .header-title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+
+    .testimonial-img{
+        width: 7rem;
+    }
+
+    .row-pricing{
+        padding-top: 50px;
+    }
+}
